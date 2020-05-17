@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    width: 1em; 
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+:root{
+    --mainColor:#5a6871;
+    --desColor:rgb(255, 255, 255,1);
+}
+html,
+body {
+    /* 白色 #fff */
+    /* 金色 #ebce67 */
+    width: 100%;
+    height: 100%;
+    color: var(--mainColor);
+    background-color: #5a6871;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+a{
+    color: var(--mainColor);
+    text-decoration: none;
+}
+#page-fans{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: #434e55;
+    border-top: 20px solid #333333;
+    border-right: 20px solid #3a3a3a;
+    border-bottom: 20px solid #333333;
+    border-left: 20px solid #3a3a3a;
+    box-shadow: 1px 1px 5px #333333;
+}
+
+
+#wrap {
+    width: 100%;
+    height: 50%;
+    /* border-top: 1px solid #000; */
+    /* border-bottom: 1px solid #000; */
+    position: relative;
+    margin: 8% auto;
+    overflow: hidden;
+}
+
+#list {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    /* -webkit-animation: 8s move infinite linear; */
+    animation: 15s move infinite linear;
+    -webkit-animation-play-state: paused;
+    width: 400%;
+    height: 100%;
+}
+
+#list li {
+    list-style: none;
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    font-size:.28rem; 
+    text-align: left;
+    float: left;
+}
+
+/*  */
+/* @-webkit-keyframes move {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -2700px;
+    }
+} */
+
+@keyframes move {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -300%;
+    }
+}
+.barrage-wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.barrage-wrap .bar-item{
+    position: absolute;
+}
+/* one */
+.one .barrage-wrap .b1{top: 0; right:0;font-size: 0.5rem;}
+.one .barrage-wrap .b2{top: 12%; left:7%;font-size: 0.21rem;}
+.one .barrage-wrap .b3{top: 15%; right:10%;font-size: 0.21rem;}
+.one .barrage-wrap .b4{top: 21%; left:35%;font-size: 0.27rem;}
+.one .barrage-wrap .b5{top: 24%; left:7%;font-size: 0.22rem;}
+.one .barrage-wrap .b6{top: 32%; right:7%;font-size: 0.17rem;}
+.one .barrage-wrap .b7{top: 33%; left:16%;font-size: 0.45rem;}
+.one .barrage-wrap .b8{top: 40%; right:5%;font-size: 0.24rem;}
+.one .barrage-wrap .b9{top: 49%; left:4%;font-size: 0.23rem;}
+.one .barrage-wrap .b90{top: 48%; left:44%;font-size: 0.30rem;}
+.one .barrage-wrap .b91{top: 63%; left:34%;font-size: 0.56rem;}
+.one .barrage-wrap .b92{top: 63%; right:24%;font-size: 0.23rem;}
+.one .barrage-wrap .b93{top: 78%; right:38%;font-size: 0.46rem;}
+.one .barrage-wrap .b10{bottom: 32%; left:12%;font-size: 0.20rem;}
+.one .barrage-wrap .b11{bottom: 35%; right:12%;font-size: 0.36rem;}
+.one .barrage-wrap .b12{bottom: 25%; right:4%;font-size: 0.22rem;}
+.one .barrage-wrap .b13{bottom: 10%; left:9%;font-size: 0.38rem;}
+.one .barrage-wrap .b14{bottom: 6%; right:5%;font-size: 0.42rem;}
+.one .barrage-wrap .b15{bottom: 0%; left:5%;font-size: 0.25rem;}
+/* two */
+.two .barrage-wrap .b0{top: 0; left:15%;font-size: 0.21rem;}
+.two .barrage-wrap .b1{top: 0; right:0;font-size: 0.28rem;}
+.two .barrage-wrap .b2{top: 12%; left:0%;font-size: 0.20rem;}
+.two .barrage-wrap .b3{top: 10%; right:10%;font-size: 0.49rem;}
+.two .barrage-wrap .b4{top: 23%; left:25%;font-size: 0.30rem;}
+.two .barrage-wrap .b5{top: 24%; left:7%;font-size: 0.16rem;}
+.two .barrage-wrap .b6{top: 32%; right:0;font-size: 0.27rem;}
+.two .barrage-wrap .b7{top: 34%; left:10%;font-size: 0.45rem;}
+.two .barrage-wrap .b8{top: 40%; right:5%;font-size: 0.34rem;}
+.two .barrage-wrap .b9{top: 49%; left:0%;font-size: 0.23rem;}
+.two .barrage-wrap .b90{top: 48%; left:44%;font-size: 0.30rem;}
+.two .barrage-wrap .b91{top: 56%; left:30%;font-size: 0.26rem;}
+.two .barrage-wrap .b92{top: 63%; right:24%;font-size: 0.33rem;}
+.two .barrage-wrap .b93{top: 78%; right:38%;font-size: 0.46rem;}
+.two .barrage-wrap .b10{bottom: 22%; left:12%;font-size: 0.50rem;}
+.two .barrage-wrap .b11{bottom: 37%; right:10%;font-size: 0.26rem;}
+.two .barrage-wrap .b12{bottom: 25%; right:0;font-size: 0.19rem;}
+.two .barrage-wrap .b13{bottom: 10%; left:9%;font-size: 0.28rem;}
+.two .barrage-wrap .b14{bottom: 6%; right:5%;font-size: 0.22rem;}
+.two .barrage-wrap .b15{bottom: 0%; left:35%;font-size: 0.35rem;}
+
+/* three */
+.three .barrage-wrap .b1{top: 0; right:0;font-size: 0.25rem;}
+.three .barrage-wrap .b2{top: 10%; left:7%;font-size: 0.56rem;}
+.three .barrage-wrap .b3{top: 15%; right:10%;font-size: 0.29rem;}
+.three .barrage-wrap .b4{top: 24%; left:35%;font-size: 0.43rem;}
+.three .barrage-wrap .b5{top: 25%; left:1%;font-size: 0.23rem;}
+.three .barrage-wrap .b6{top: 34%; right:7%;font-size: 0.27rem;}
+.three .barrage-wrap .b7{top: 34%; left:12%;font-size: 0.40rem;}
+.three .barrage-wrap .b8{top: 40%; right:0;font-size: 0.44rem;}
+.three .barrage-wrap .b9{top: 49%; left:4%;font-size: 0.23rem;}
+.three .barrage-wrap .b90{top: 45%; left:34%;font-size: 0.55rem;}
+.three .barrage-wrap .b91{top: 63%; left:24%;font-size: 0.26rem;}
+.three .barrage-wrap .b92{top: 63%; right:44%;font-size: 0.43rem;}
+.three .barrage-wrap .b93{top: 78%; right:38%;font-size: 0.26rem;}
+.three .barrage-wrap .b10{bottom: 32%; left:5%;font-size: 0.40rem;}
+.three .barrage-wrap .b11{bottom: 35%; right:12%;font-size: 0.26rem;}
+.three .barrage-wrap .b12{bottom: 25%; right:4%;font-size: 0.32rem;}
+.three .barrage-wrap .b13{bottom: 14%; left:9%;font-size: 0.28rem;}
+.three .barrage-wrap .b14{bottom: 6%; right:5%;font-size: 0.52rem;}
+.three .barrage-wrap .b15{bottom: 0%; left:5%;font-size: 0.55rem;}
+
+/*动画暂停播放*/
+/* #wrap:hover #list {
+    -webkit-animation-play-state: paused;
+    -webkit-animation-play-state: running;
+} */
+.bili-tv{
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    width: 50%;
+    margin-left: -25%;
+    text-align: center;
+}
+/* .bili-tv .icon-bili-bg{
+    position: relative;
+    top:-37%;
+    left: 5%;
+    font-size: 2.6em;
+    z-index: 1;
+    display: inline-block;
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(var(--mainColor)), to(var(--desColor)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+.bili-tv .icon-bili-tv{
+    position: relative;
+    font-size: 2.8em;
+    z-index: 99;
+    display: inline-block;
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(var(--mainColor)), to(var(--desColor)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bili-tv .icon-bili-tv:first-child {        
+    /*表示选择父元素的第一个子元素*/
+    text-shadow: 1px 1px var(--mainColor), -1px -1px rgb(90, 104, 113,0.4);
+    text-shadow: 0px 0.03rem 0px var(--mainColor),
+                 0px 0.14rem 0.1rem rgba(0,0,0,0.15),
+                 0px 0.24rem 0.02rem rgba(0,0,0,0.1),
+                 0px 0.34rem 0.3rem rgba(0,0,0,0.1);
+ }
+ /* .bili-tv .icon-bili-tv:last-child {         
+    text-shadow: -1px -1px var(--mainColor), 1px 1px #fff;
+ } */
+ .bili-tv .icon-bilibili1::after{
+    content: "";
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    top: 24%;
+    left: 10%;
+    z-index:-1;
+    background-color: red;
+    opacity: 1;
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(var(--mainColor)), to(var(--desColor)));
+ }
+
+/* 用户信息 */
+.user-info {
+    text-align: center;
+}
+.user-info .user-link{
+    display: inline-block;
+}
+.user-info .user-name {
+    font-size:.5rem; 
+}
+
+.user-info .fans-val {
+    font-size:.3rem; 
+    margin-top: 10px;
+}
+.bili-log{
+    text-align: center;
+}
+.bili-log .icon-bili{
+    font-size: 0.8em;
+}
+/* 提供者 */
+.provider {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    width: 300px;
+    margin-left: -150px;
+    text-align: center;
+    opacity: 0.25;
+}
+.provider .axihe {
+    font-size:.15rem; 
+}
